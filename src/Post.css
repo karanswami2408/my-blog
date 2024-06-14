@@ -1,0 +1,40 @@
+.posts-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+    width: 30%; /* Adjust width as needed */
+    margin: 10px; /* Adjust margin as needed */
+}
+
+.post h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.post p {
+    margin-bottom: 10px;
+}
+
+.post button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.post button.liked {
+    background-color: red;
+}

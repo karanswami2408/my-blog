@@ -1,18 +1,17 @@
 import React from 'react';
+import './Header.css';
 
 function Header() {
-  return (
-    <header>
-      <div className="logo">My Blog</div>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-  );
+    return (
+        <header className="header">
+            <h1>My Blog</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+    );
 }
 
 export default Header;
